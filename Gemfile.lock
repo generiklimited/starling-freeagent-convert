@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    csv (1.0.2)
+    qif (1.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  csv
+  qif
+
+BUNDLED WITH
+   1.12.4
