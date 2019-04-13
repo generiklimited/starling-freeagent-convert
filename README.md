@@ -13,7 +13,7 @@ Assuming that you know Docker
 ### Build an image
 
 ```
-docker build -t generik/csvtoqif .
+docker build -t generik/starling-freeagent-convert .
 ```
 
 ### Convert a file
@@ -21,7 +21,7 @@ docker build -t generik/csvtoqif .
 Assuming that you are in a directory with the file and it's called `StarlingStatement_May-2018.csv`
 
 ```
-docker run --rm -v $PWD:/data generik/csvtoqif StarlingStatement_May-2018.csv
+docker run --rm -v $PWD:/data generik/starling-freeagent-convert StarlingStatement_May-2018.csv
 ```
 
 this will create a `StarlingStatement_May-2018.qif` file in the same directory
